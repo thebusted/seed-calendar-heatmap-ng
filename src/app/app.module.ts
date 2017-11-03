@@ -3,9 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { CalendarHeatmap } from 'angular2-calendar-heatmap';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalendarHeatmap
   ],
   imports: [
     BrowserModule
