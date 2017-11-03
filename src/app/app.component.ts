@@ -6,12 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
-  data = {};
+  data: any = {};
 
   constructor() {
-    console.log('I AM IN CONSTRUCTOR');
-
     // Set data
     this.data = [{
       'date': '2016-01-01',
@@ -31,5 +28,7 @@ export class AppComponent {
         'value': 1219
       }]
     }];
+
+    // CSV parser
   }
 }
