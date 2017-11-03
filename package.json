@@ -28,6 +28,7 @@
     "d3": "^4.11.0",
     "jquery": "^3.2.1",
     "moment": "^2.19.1",
+    "plottable": "^3.7.0",
     "popper.js": "^1.12.6",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
@@ -38,7 +39,6 @@
     "@angular/language-service": "^5.0.0",
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
-    "@types/node": "~6.0.60",
     "codelyzer": "~3.2.0",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
